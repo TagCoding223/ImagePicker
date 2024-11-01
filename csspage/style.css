@@ -1,0 +1,170 @@
+body{
+margin : 0;
+padding : 0;
+color : whitesmoke;
+}
+a{
+text-decoration : none;
+color : white;
+}
+header{
+background : blue;
+width : 100vw;
+height : 6vh;
+padding-top : 2.5vh;
+margin : auto;
+}
+header a{
+padding : 1vh;
+font-size : 3.5vh;
+font-weight :bold;
+text-decoration : none;
+color : white;
+margin :2.5vh 2vw;
+}
+a:hover{
+background : #a14a4a;
+}
+#logo{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1vh;
+    width: 8vw;
+    height: 6vh;
+    background: white;
+    border-radius: 2vw;
+    left: 88vw;
+}
+#page_thumb{
+width :100vw;
+height : 80vh;
+background : url("../q3.jpg") no-repeat fixed;
+background-size :cover;
+color : #000000;
+opacity :.8;
+}
+h1{
+font-size: 8vh;
+letter-spacing : 1vw;
+padding-top:20vh;
+font-weight :bold;
+margin-top :0;
+text-align : center;
+text-decoration : underline;
+}
+h2{
+letter-spacing : 1vw;
+line-height :8vh;
+text-align: center;
+font-size: 4vh;
+padding : 0 4vw 0 4vw;
+text-decoration : underline dashed pink;
+}
+.container{
+padding : 2vh 0 4vh;
+width:90vw;
+height : auto;
+margin :3vh auto 3vh;
+background : #dbd2d2;
+}
+h3{
+margin : 2vh 2vw;
+font-size:4vh;
+font-weight: bold;
+letter-spacing:.5vw;
+text-decoration : underline ;
+color : black;
+}
+.two_side{
+width : 100%;
+height : 50vh;
+margin : 0 0;
+}
+.img_with_button{
+margin : 0 0 0 2.5vw ;
+display : inline-block;
+width : 45%;
+height : 90%;
+}
+.img_con{
+width :100%;
+height : 85%;
+
+}
+.img_con img{
+width:100%;
+height:100%;
+}
+.button{
+width :100%;
+height :15%;
+}
+.button a{
+margin:0;
+padding:0;
+}
+.button a:hover{
+background : #dbd2d2;
+}
+.download_button{
+width:75%;
+height:75%;
+margin: 1.5vh 5vw;
+font-size:3vh;
+font-weight:bold;
+letter-spacing:.5vw;
+cursor :pointer;
+}
+img:hover {
+opacity : .7;
+}
+.see_more_con{
+margin : auto;
+width : 85%;
+height : 10vh;
+border-radius : 3vw;
+background : aliceblue;
+}
+#see_a{
+margin :0 0; 
+padding : 0 0;
+}
+.see_more_con p{
+margin :  auto ;
+padding: 2vh 0 0;
+font-weight:bold;
+text-align:center;
+font-size: 5vh;
+color : red;
+letter-spacing : 1vw;
+}
+footer{
+margin :0;
+padding : 0;
+width : 100vw;
+height :auto;
+background : lightblue;
+}
+.foot_link{
+margin : 1vh 0vw 1vh 2vw;
+//border : 1px solid black;
+padding : auto;
+width : 45vw;
+height : auto;
+display : inline-block;
+}
+h4{
+text-align:center;
+color:black;
+}
+.foot_link p{
+text-align:center;
+color:black;
+}
+#last_foot{
+width : 100%;
+height : 10vh;
+text-align :center;
+color : black;
+}
